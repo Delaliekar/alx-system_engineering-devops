@@ -1,0 +1,2 @@
+#Display Lines contain the pattern "root" from the file etc/passwd
+grep "root" /etc/passwd

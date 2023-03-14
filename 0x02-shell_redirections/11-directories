@@ -1,0 +1,2 @@
+#Script that counts the number of directories and sub-directories
+find . -type d -not -path '*/\.*' | wc -l

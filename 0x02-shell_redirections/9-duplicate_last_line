@@ -1,0 +1,2 @@
+#Duplicates the last line of iacta
+echo "$(tail -n 1 iacta)" >> iacta

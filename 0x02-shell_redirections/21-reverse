@@ -1,0 +1,2 @@
+#Reverse its input
+cat input.txt | ./reverse.sh > output.txt

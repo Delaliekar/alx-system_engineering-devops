@@ -1,0 +1,2 @@
+#Script that deletes regular files with a .js extension
+find . -type f -name "*.js" -delete

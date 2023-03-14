@@ -1,0 +1,2 @@
+#Displays the Third Line of the file iacta
+echo "$(head -n 3 iacta | tail -n 1)"

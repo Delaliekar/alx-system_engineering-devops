@@ -1,0 +1,2 @@
+#Display /etc/passwd
+cat /etc/passwd

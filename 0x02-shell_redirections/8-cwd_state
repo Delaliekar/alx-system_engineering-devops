@@ -1,0 +1,2 @@
+#Script for ls-cwd_content
+ls -la > ls_cwd_content
