@@ -1,0 +1,2 @@
+#Script lists all the files with a .gif extension in the current working directory
+find . -type f -iname '*.gif' -printf '%f\n' | sed 's/\.gif$//' | LC_COLLATE=C sort -f | tr '\n' '\0' | xargs -0 -n1 echo && echo

@@ -1,0 +1,2 @@
+#Script thatfinds all empty files and directories in the current directory and all sub-directories.
+find . -type d -empty -o -type f -empty -printf "%P\n"
